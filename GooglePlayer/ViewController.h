@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import "GTLTasks.h"
+#import "GTMOAuth2ViewControllerTouch.h"
+
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIButton* signedInButton_;
+@property (nonatomic, weak) IBOutlet UITextField* signedInField_;
 
 @end
 
