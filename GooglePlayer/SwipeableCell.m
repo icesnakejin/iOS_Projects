@@ -170,7 +170,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
                         } else if (self.contentViewRightConstraint.constant >= quarterOfButtonOne) { //3
                             //Open all the way
@@ -209,7 +209,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
                         } else if (self.contentViewRightConstraint.constant >= quarterOfButtonOne) { //3
                             //Open all the way
@@ -245,7 +245,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
                         } else if (self.contentViewRightConstraint.constant >= quarterOfButtonOne) { //3
                             //Open all the way
@@ -368,7 +368,7 @@ static CGFloat const kBounceValue = 5.0f;
                         UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                         UIGraphicsEndImageContext();
                         
-                        self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                        self.myPaddingView.backgroundColor = [UIColor grayColor];
                                                         //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
                         } else if (self.contentViewLeftConstraint.constant >= quarterOfButtonOne) { //3
                             //Open all the way
@@ -402,7 +402,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                                                             //}
                             
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
@@ -440,7 +440,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];
                         } else if (self.contentViewLeftConstraint.constant >= quarterOfButtonOne) { //3
                             //Open all the way
@@ -474,7 +474,7 @@ static CGFloat const kBounceValue = 5.0f;
                             UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
                             UIGraphicsEndImageContext();
                             
-                            self.myPaddingView.backgroundColor = [UIColor colorWithPatternImage:image];
+                            self.myPaddingView.backgroundColor = [UIColor grayColor];
                             //}
                             
                             //[self setConstraintsToShowAllButtons:YES notifyDelegateDidOpen:YES functionIndex:0];

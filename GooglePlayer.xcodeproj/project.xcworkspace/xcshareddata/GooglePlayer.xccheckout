@@ -12,8 +12,6 @@
 	<dict>
 		<key>017902a2-5ee6-4387-8ade-bdfb37f4da18++3176</key>
 		<string>http://vm-svn.broadvision.com/svn/mychrm/branches/cloudtasks_dev_myvmoso_tree_task_refactoring/GooglePlayer</string>
-		<key>5A8198133F5A756FAB40EC4FA722586C69C266FD</key>
-		<string>https://github.com/icesnakejin/iOS_Projects.git</string>
 		<key>b3aa69f0-f65c-a609-0a27-78855af037c1++2896</key>
 		<string>http://gtm-http-fetcher.googlecode.com/svn/trunk/Source</string>
 	</dict>
@@ -23,10 +21,8 @@
 	<dict>
 		<key>017902a2-5ee6-4387-8ade-bdfb37f4da18++3176</key>
 		<string>../..</string>
-		<key>5A8198133F5A756FAB40EC4FA722586C69C266FD</key>
-		<string>../..</string>
 		<key>b3aa69f0-f65c-a609-0a27-78855af037c1++2896</key>
-		<string>../..HTTPFetcher/</string>
+		<string>../..HTTPFetcher</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
@@ -40,14 +36,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5A8198133F5A756FAB40EC4FA722586C69C266FD</string>
+	<string>017902a2-5ee6-4387-8ade-bdfb37f4da18++3176</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5A8198133F5A756FAB40EC4FA722586C69C266FD</string>
+			<string>017902a2-5ee6-4387-8ade-bdfb37f4da18++3176</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GooglePlayer</string>
 		</dict>
@@ -65,7 +61,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>b3aa69f0-f65c-a609-0a27-78855af037c1++2896</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HTTPFetcher</string>
+			<string>GooglePlayerHTTPFetcher</string>
 		</dict>
 	</array>
 </dict>

@@ -151,7 +151,7 @@ NSString *const kTaskStatusNeedsAction = @"needsAction";
     if (!_alertView) {
         _alertView = [[UIAlertView alloc] initWithFrame:CGRectMake(0, 0, 200, 100)];
         [_alertView setCenter:self.view.center];
-        _alertView.title = @"JJ姐姐不要着急，正在搂腚";
+        _alertView.title = @"Loading...";
     }
     //UIAlertView* alertView = [[UIAlertView alloc] init];
     
@@ -313,7 +313,7 @@ NSString *const kTaskStatusNeedsAction = @"needsAction";
     
     //NSString *item = _objects[indexPath.row];
     //cell.paddingText = @"delete";
-    [cell setItem:title RightPaddingText1:@"Defer" RightPaddingText2:@"Delete" LeftPaddingText1:@"I love you" LeftPaddingText2:@"Complete" ];
+    [cell setItem:title RightPaddingText1:@"Defer" RightPaddingText2:@"Delete" LeftPaddingText1:@"Update" LeftPaddingText2:@"Complete" ];
     cell.detailTextLabel.text = item.status;
     cell.delegate = self;
     return cell;
@@ -579,6 +579,7 @@ didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
         [_createPage setCreationType:@"addTaskList"];
         [_createPage setTasksService:self.tasksService];
         _createPage.preferredContentSize = CGSizeMake(200, 100);
+        _createPage.delegate = self;
         UIPopoverPresentationController * pvc = nvc.popoverPresentationController;
         pvc.delegate = self;
     }
